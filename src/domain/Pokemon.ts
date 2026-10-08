@@ -1,0 +1,32 @@
+export const POKEMON_TYPES = [
+  { id: 'normal', name: '노말', color: '#C1C2C1', textColor: '#FFFFFF', sort: 1 },
+  { id: 'fire', name: '불꽃', color: '#EF7374', textColor: '#FFFFFF', sort: 2 },
+  { id: 'water', name: '물', color: '#74ACF5', textColor: '#FFFFFF', sort: 3 },
+  { id: 'electric', name: '전기', color: '#FCD659', textColor: '#1E293B', sort: 4 },
+  { id: 'grass', name: '풀', color: '#82C274', textColor: '#FFFFFF', sort: 5 },
+  { id: 'ice', name: '얼음', color: '#81DFF7', textColor: '#1E293B', sort: 6 },
+  { id: 'fighting', name: '격투', color: '#FFAC59', textColor: '#FFFFFF', sort: 7 },
+  { id: 'poison', name: '독', color: '#B884DD', textColor: '#FFFFFF', sort: 8 },
+  { id: 'ground', name: '땅', color: '#B88E6F', textColor: '#FFFFFF', sort: 9 },
+  { id: 'flying', name: '비행', color: '#ADD2F5', textColor: '#FFFFFF', sort: 10 },
+  { id: 'psychic', name: '에스퍼', color: '#F584A8', textColor: '#FFFFFF', sort: 11 },
+  { id: 'bug', name: '벌레', color: '#B8C26A', textColor: '#FFFFFF', sort: 12 },
+  { id: 'rock', name: '바위', color: '#CBC7AD', textColor: '#FFFFFF', sort: 13 },
+  { id: 'ghost', name: '고스트', color: '#A284A2', textColor: '#FFFFFF', sort: 14 },
+  { id: 'dragon', name: '드래곤', color: '#8D98EC', textColor: '#FFFFFF', sort: 15 },
+  { id: 'dark', name: '악', color: '#998B8C', textColor: '#FFFFFF', sort: 16 },
+  { id: 'steel', name: '강철', color: '#98C2D1', textColor: '#1E293B', sort: 17 },
+  { id: 'fairy', name: '페어리', color: '#F5A2F5', textColor: '#FFFFFF', sort: 18 },
+] as const
+
+export const GENERATIONS = [
+  { id: '1', name: '1세대 · 관동', subname: '1세대', sort: 1 },
+  { id: '2', name: '2세대 · 성도', subname: '2세대', sort: 2 },
+  { id: '3', name: '3세대 · 호연', subname: '3세대', sort: 3 },
+  { id: '4', name: '4세대 · 신오', subname: '4세대', sort: 4 },
+  { id: '5', name: '5세대 · 하나', subname: '5세대', sort: 5 },
+  { id: '6', name: '6세대 · 칼로스', subname: '6세대', sort: 6 },
+  { id: '7', name: '7세대 · 알로라', subname: '7세대', sort: 7 },
+  { id: '8', name: '8세대 · 가라르', subname: '8세대', sort: 8 },
+  { id: '9', name: '9세대 · 팔데아', subname: '9세대', sort: 9 },
+] as const
